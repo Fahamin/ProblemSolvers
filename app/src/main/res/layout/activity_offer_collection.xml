@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OfferCollectionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <EditText
+                    android:id="@+id/StartDate"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cell_border_white"
+                    android:gravity="center"
+                    android:hint="Start Date"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/EndDate"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cell_border_white"
+                    android:gravity="center"
+                    android:hint="End Date"
+                    android:textAlignment="center" />
+
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/et_program_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@drawable/cell_border_white"
+                android:gravity="left"
+                android:hint="Program Name"
+                android:padding="5dp" />
+
+            <EditText
+                android:id="@+id/et_offer_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@drawable/cell_border_white"
+                android:gravity="left"
+                android:hint="Offer Name"
+                android:padding="5dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:elevation="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardMaxElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:text="Conditional Product"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/cell_border_white">
+
+                        <com.androidbuts.multispinnerfilter.MultiSpinnerSearch
+                            android:id="@+id/flavor_spinner_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:drawSelectorOnTop="true"
+                            android:gravity="center"
+                            android:spinnerMode="dialog"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/cell_border_white">
+
+                        <com.androidbuts.multispinnerfilter.MultiSpinnerSearch
+                            android:id="@+id/pack_spinner_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:drawSelectorOnTop="true"
+                            android:gravity="center"
+                            android:spinnerMode="dialog"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+
+                    <EditText
+                        android:id="@+id/conditional_qty_id_Edt"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/cell_border_white"
+                        android:gravity="center"
+                        android:hint="Conditional Qts (CS)"
+                        android:textAlignment="center" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="8dp"
+                android:elevation="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardMaxElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/cell_border_white"
+                        android:text="Free Product"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Spinner
+
+                        android:id="@+id/flavor_free_spinner_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/cell_border_white"
+                        android:drawSelectorOnTop="true"
+                        android:spinnerMode="dialog"
+                        android:textAlignment="center" />
+
+                    <Spinner
+                        android:id="@+id/pack_free_spinner_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/cell_border_white"
+                        android:drawSelectorOnTop="true"
+                        android:spinnerMode="dialog"
+                        android:textAlignment="center" />
+
+
+                    <EditText
+                        android:id="@+id/free_qty_id_Edt"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/cell_border_white"
+                        android:gravity="center"
+                        android:hint="Free Qts (CS)"
+                        android:textAlignment="center" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="saveAllData"
+                android:text="SAVE" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

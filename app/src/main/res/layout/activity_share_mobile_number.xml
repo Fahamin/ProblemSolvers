@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ShareMobileNumberActivity">
+
+    <ImageView
+        android:text="WhatsAppCall"
+        android:id="@+id/whatsAppIDcall"
+        android:layout_gravity="center"
+        android:src="@drawable/wc"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <ImageView
+        android:text="WhatsAppMes"
+        android:id="@+id/whatsAppIDMes"
+        android:layout_gravity="center"
+        android:src="@drawable/wm"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <ImageView
+        android:text="OpenImoApp"
+        android:id="@+id/imoAppID"
+        android:layout_gravity="center"
+        android:src="@drawable/im"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <ImageView
+        android:text="OpenDUOApp"
+        android:id="@+id/duoAppID"
+        android:layout_gravity="center"
+        android:src="@drawable/du"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+</LinearLayout>

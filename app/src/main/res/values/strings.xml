@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Problem Solvers</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="step_of">Step %1$d of %2$d</string>
+
+    <string name="dateFormat" translatable="false">EE, dd MMM</string>
+    <string name="timeFormat" translatable="false">EE, dd MMM HH:mm</string>
+    <string name="period" translatable="false">%1$s – %2$s</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_map">MapActivity</string>
+
+    <string name="service_not_available">Service not available ..check network connection</string>
+    <string name="no_address_found">No address found</string>
+    <string name="address_found">address found</string>
+    <string name="not_support_area">This area is not supported yet</string>
+    <string name="confirm_location">Confirm Location</string>
+    <string name="search_place">Search a place</string>
+    <string name="confirm_pickup">Confirm pickup</string>
+    <string name="confirm_dest">Confirm destination</string>
+    <string name="failed_select_location">failed to select location please try again</string>
+
+    <string name="places_api_key" translatable="false">AIzaSyCyKugNDY5CdTwYmpcYSZ1xcI0jhkQRQ70</string>
+    <string name="selected_address" translatable="false">Selected address</string>
+    <string name="choose_country" translatable="false">Country</string>
+    <string name="select_location_on_map" translatable="false">Select location on map</string>
+    <string name="supported_areas" translatable="false">User can only select locations which contains these literals.. \nSeparate each with comma</string>
+    <string name="supported_areas_hint" translatable="false">ex : cairo,القاهرة</string>
+    <string name="latitude" translatable="false">Latitude</string>
+    <string name="longitude" translatable="false">Longitude</string>
+    <string name="language" translatable="false">Language</string>
+
+
+    <string name="server_client_id">987356470961-num3t2182hn7g62h8he7sppd7b0l55dt.apps.googleusercontent.com</string>
+    <string-array name="country_list">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Saudi arabia</item>
+        <item>United States</item>
+
+    </string-array>
+
+    <string-array name="region_list">
+        <item>Select Region</item>
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Barishal</item>
+        <item>Rajshahi</item>
+        <item>Khulna</item>
+        <item>Bogura</item>
+
+    </string-array>
+
+
+    <string-array name="markerType_list">
+        <item>Select MarkerType</item>
+        <item>Marker</item>
+        <item>Area</item>
+        <item>Line</item>
+
+
+    </string-array>
+
+
+    <string-array name="language_list">
+        <item>English</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Flavor_items">
+        <item>10</item>
+        <item>20</item>
+        <item>25</item>
+        <item>50</item>
+        <item>All</item>
+    </string-array>
+
+    <string-array name="pack_size_items">
+        <item>10</item>
+        <item>20</item>
+        <item>25</item>
+        <item>50</item>
+        <item>All</item>
+    </string-array>
+
+
+    <string name="order_id_mock" translatable="false"># 1234–5678</string>
+    <string name="price_mock" translatable="false">$25</string>
+    <string name="requests_count_mock" translatable="false">5</string>
+    <string name="requests_count_badge" translatable="false">REQUESTS</string>
+    <string name="weight_mock" translatable="false">50 oz</string>
+    <string name="weight_badge" translatable="false">WEIGHT</string>
+    <string name="pledge_mock" translatable="false">$150</string>
+    <string name="pledge_badge" translatable="false">PLEDGE</string>
+    <string name="sender_badge" translatable="false">SENDER</string>
+    <string name="client_name_mock" translatable="false">Edward Norton</string>
+    <string name="rating_mock" translatable="false">(26)</string>
+    <string name="from_badge" translatable="false">FROM</string>
+    <string name="to_badge" translatable="false">TO</string>
+    <string name="delivery_date_badge" translatable="false">DELIVERY DATE</string>
+    <string name="delivery_time_mock" translatable="false">6:30 pm</string>
+    <string name="delivery_date_mock" translatable="false">May 16, 2016</string>
+    <string name="deadline_badge" translatable="false">REQUEST DEADLINE</string>
+    <string name="deadline_time_mock" translatable="false">24 minutes</string>
+    <string name="request_btn_text" translatable="false">REQUEST</string>
+    <string name="btn_annotation_mock" translatable="false">5 people have sent a request</string>
+    <string name="content_from1_mock">W 90th St</string>
+    <string name="content_from2_mock">New York, NY 10025</string>
+    <string name="content_to1_mock">46th Ave</string>
+    <string name="content_to2_mock">Woodside, NY 11101</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

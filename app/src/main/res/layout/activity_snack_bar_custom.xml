@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:layout_margin="9dp"
+        android:id="@+id/showSnackbarButton"
+        android:layout_width="wrap_content"
+        android:background="@drawable/btn_bacground"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="SHOW SNACKBAR"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_margin="9dp"
+        android:id="@+id/showSnackbarButton1"
+        android:layout_width="wrap_content"
+        android:background="@drawable/btn_bacground"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="SHOW SNACKBAR"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

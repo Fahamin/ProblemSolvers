@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".TextViewAnimation">
+
+
+    <com.tbl.problemsolvers.utils.Typewriter
+        android:id="@+id/typewriter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="starAnimation"
+        android:text="starAnimation" />
+    <!-- <TextView
+         android:id="@+id/tvanim"
+         android:textSize="34dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Durbin Apps"
+         android:textAlignment="center" />-->
+</LinearLayout>

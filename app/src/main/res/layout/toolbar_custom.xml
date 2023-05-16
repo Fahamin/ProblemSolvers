@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/white"
+    android:elevation="10dp">
+
+    <ImageView
+        android:id="@+id/redmeygift"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="end"
+        android:layout_marginLeft="5dp"
+        android:padding="1dp"
+        android:src="@drawable/ff" />
+
+    <TextView
+        android:id="@+id/toolbarTitle"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/redmeygift"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Title of page"
+        android:textAlignment="center"
+        android:textColor="@color/green_pure" />
+
+    <ImageView
+        android:id="@+id/toolbarBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/toolbarTitle"
+        android:padding="5dp"
+        android:src="@drawable/star" />
+
+    <TextView
+        android:id="@+id/coinCounterTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/toolbarBack"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="4"
+        android:textColor="@color/green_pure" />
+
+</RelativeLayout>
+
+    <!--Replace for all toolbars-->

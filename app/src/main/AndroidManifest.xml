@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <queries>
+
+        <!-- Specific apps you interact with, eg: -->
+        <package android:name="com.whatsapp" />
+        <package android:name="com.imo.android.imoim" />
+        <package android:name="com.google.android.apps.tachyon" />
+
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+
+            <data android:mimeType="text/plain" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.CALL" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProblemSolvers">
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".DarkTheme.DarkThemTestActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShadowButtonActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ExportEmportDBSqlite"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".dataPassSetResult.TwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dataPassSetResult.OneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeocoderAddressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GameAnimationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CustomDialog"
+            android:exported="true" />
+        <activity
+            android:name=".TextViewAnimation"
+            android:exported="true" />
+        <activity
+            android:name=".AudioPlayer"
+            android:exported="true" />
+        <activity
+            android:name=".profile.ProfileViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".profile.ProfileInformationActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CoinMoveingAciivity"
+            android:exported="true" />
+        <activity
+            android:name=".LeaderBoard.ProfileActivity"
+            android:exported="false"
+            android:theme="@style/BaseTheme" />
+        <activity
+            android:name=".coinFly.CoinFlyingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LeaderBoard.LeaderBoardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LottileAnimation"
+            android:exported="true" />
+        <activity
+            android:name=".CoinEarning.CoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SoundEffectActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TransitionsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FoldingCellAnimation.FoldingCellActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".KotlinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuestionLibary.QuestionnaireActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RandomRecycleView"
+            android:exported="true" />
+        <activity
+            android:name=".TextToImage"
+            android:exported="true" />
+        <activity
+            android:name=".StringDivider"
+            android:exported="true" />
+        <activity
+            android:name=".BlankImageTest"
+            android:exported="true" />
+        <activity
+            android:name=".PlayerAcitvity"
+            android:exported="true" />
+        <activity
+            android:name=".DateRagnePickerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ShareMobileNumberActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SnackBarCustomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CvsReaderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StatusBarGradientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SideEffectActivity.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".AsyntaskRepalec"
+            android:exported="false" />
+        <activity
+            android:name=".StringwithTagLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImagePicker"
+            android:exported="true" />
+        <activity
+            android:name=".ScrenshotLayout"
+            android:exported="false" />
+        <activity
+            android:name=".SteperQuestion"
+            android:exported="true" />
+        <activity
+            android:name=".JsonTocvsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SideEffectActivity.SlideEffectActivity"
+            android:exported="true" />
+        <activity
+            android:name=".customQuestion.CustomLayoutQuestionActivity"
+            android:exported="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>
