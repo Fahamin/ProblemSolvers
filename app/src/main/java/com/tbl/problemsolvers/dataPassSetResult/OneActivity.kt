@@ -1,6 +1,5 @@
 package com.tbl.problemsolvers.dataPassSetResult
 
-import android.os.Build.VERSION_CODES.R
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.tbl.problemsolvers.R
